@@ -63,9 +63,8 @@ class ReadData extends StatelessWidget {
             Expanded(child: Text("Discount: ${info['disPrice']}")),
 
             Container(decoration: BoxDecoration(border: Border.all(width: 1),borderRadius: BorderRadius.circular(40)),
-                      child: Expanded(
-                          child: IconButton(onPressed: returnCart ,
-                            icon: Icon(Icons.add_shopping_cart_rounded),color: Colors.black,)))
+                      child: IconButton(onPressed: returnCart ,
+                        icon: Icon(Icons.add_shopping_cart_rounded),color: Colors.black,))
                         ],
                       ),
                     )
